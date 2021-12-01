@@ -1,0 +1,91 @@
+/* * {
+    border: mediumorchid solid 1px;
+} */
+
+
+h1 {
+    padding: 10px
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.layout {
+    display:grid;
+    grid-template-rows: 110px 1fr;
+}
+
+.header {
+    padding:px;
+    background-color:yellow;
+    color: black;
+}
+
+.main {
+    padding:10px;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.section {
+    display:grid;
+    grid-template-rows: 70px, 1fr;
+}
+
+.quotes-a {
+    display:grid;
+    grid-template-rows: repeat (3, 1fr);
+    gap: 2em;
+}
+
+.quotes-a > div {
+    padding: 5px;
+    border: orchid solid 2px;
+    border-radius: 25px;
+    background-color: orchid;
+    box-shadow: 10px 10px;
+}
+
+.quotes-b {
+    display:grid;
+    grid-template-rows: repeat (3, 1fr);
+    gap: 2em;
+}
+
+.quotes-b > div {
+    padding: 5px;
+    border: orchid solid 2px;
+    border-radius: 25px;
+    background-color: orchid;
+    box-shadow: 10px 10px;
+}
+
+.quotes-c {
+    display:grid;
+    grid-template-rows: repeat (3, 1fr);
+    gap: 2em;
+}
+
+.quotes-c > div {
+    padding: 5px;
+    border: orchid solid 2px;
+    border-radius: 25px;
+    background-color: orchid;
+    box-shadow: 10px 10px;
+}
+
+.main > side {
+    background-color: black;
+}
+
+/* .section-one {
+    display:grid;
+    grid-template-rows: repeat (4, 10em);
+    
+}
+
+.section-one > div {
+    border: mediumaquamarine solid 3px;
+} */
